@@ -1,0 +1,34 @@
+[
+    {
+        "rule_id": "GF-RULE-001",
+        "name": "Brute Force Login Attempt",
+        "description": "Detects 3 or more failed login attempts for the same co-op staff account.",
+        "severity": "HIGH",
+        "match_keyword": "LOGIN_FAILED",
+        "threshold": 3
+    },
+    {
+        "rule_id": "GF-RULE-002",
+        "name": "Unauthorized Farmer Subsidy Data Export",
+        "description": "Triggers immediately when subsidy payout tables are exported without authorization.",
+        "severity": "CRITICAL",
+        "match_keyword": "UNAUTHORIZED_EXPORT",
+        "threshold": 1
+    },
+    {
+        "rule_id": "GF-RULE-003",
+        "name": "Grain Silo & Cold Storage IoT Tampering",
+        "description": "Detects firmware tamper alerts on agricultural storage sensors.",
+        "severity": "CRITICAL",
+        "match_keyword": "FIRMWARE_TAMPER_ALERT",
+        "threshold": 1
+    },
+    {
+        "rule_id": "GF-RULE-004",
+        "name": "Suspicious Warehouse POS Discount Override",
+        "description": "Flags unauthorized bulk discount overrides on fertilizer or seed inventory.",
+        "severity": "MEDIUM",
+        "match_keyword": "BULK_DISCOUNT_OVERRIDE",
+        "threshold": 1
+    }
+]
