@@ -5,3 +5,12 @@
 2026-11-20 11:30:44 ERROR [PaymentGateway] user=admin_coop ip=103.255.4.88 action=UNAUTHORIZED_EXPORT table=farmer_subsidy_payouts
 2026-11-20 14:05:11 CRITICAL [ColdStorageIoT] sensor=Silo_Grain_Temp_02 ip=192.168.20.9 action=FIRMWARE_TAMPER_ALERT status=FAILED
 2026-11-20 15:22:30 INFO [MilkCollection] user=usman.ali role=field_officer ip=192.168.10.41 action=BATCH_UPLOAD liters=1850
+2026-11-20 08:12:04 INFO [AuthService] user=tariq.mahmood role=agronomist ip=192.168.10.14 action=LOGIN_SUCCESS portal=seed_inventory
+2026-11-20 08:45:19 INFO [WarehousePOS] user=ayesha.khalid role=store_manager ip=192.168.10.22 action=UPDATE_STOCK item=DAP_Fertilizer_50kg qty=450
+2026-11-20 09:10:02 WARN [AuthService] user=bilal.ahmed role=accountant ip=192.168.10.35 action=LOGIN_FAILED reason=INVALID_PASSWORD
+2026-11-20 09:10:15 WARN [AuthService] user=bilal.ahmed role=accountant ip=192.168.10.35 action=LOGIN_FAILED reason=INVALID_PASSWORD
+2026-11-20 09:10:29 WARN [AuthService] user=bilal.ahmed role=accountant ip=192.168.10.35 action=LOGIN_FAILED reason=INVALID_PASSWORD
+2026-11-20 11:30:44 ERROR [PaymentGateway] user=admin_coop ip=103.255.4.88 action=UNAUTHORIZED_EXPORT table=farmer_subsidy_payouts
+2026-11-20 14:05:11 CRITICAL [ColdStorageIoT] sensor=Silo_Grain_Temp_02 ip=192.168.20.9 action=FIRMWARE_TAMPER_ALERT status=FAILED
+2026-11-20 15:22:30 INFO [MilkCollection] user=usman.ali role=field_officer ip=192.168.10.41 action=BATCH_UPLOAD liters=1850
+2026-11-20 23:40:12 WARN [WarehousePOS] user=ayesha.khalid role=store_manager ip=192.168.10.22 action=BULK_DISCOUNT_OVERRIDE item=Urea_50kg discount=85%
